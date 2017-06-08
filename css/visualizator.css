@@ -1,0 +1,56 @@
+/* remove border radius for the tab */
+
+#exTab1 .nav-pills > li > a {
+  border-radius: 0;
+}
+
+/* change border radius for the tab , apply corners on top*/
+
+#exTab3 .nav-pills > li > a {
+  border-radius: 4px 4px 0 0 ;
+}
+
+.modal {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 ) 
+                url('http://i.stack.imgur.com/FhHRx.gif') 
+                50% 50% 
+                no-repeat;
+}
+
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+body.loading {
+    overflow: hidden;   
+}
+
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+body.loading .modal {
+    display: block;
+}
+
+.ath_0{
+	background-color: #1AF7F4;
+}
+.ath_1{
+	background-color: #00ff00;
+}
+.ath_2{
+	background-color: #ff0000;
+}
+.ath_3{
+	background-color: #0000ff;
+}
+.ath_4{
+	background-color: #ECF71A;
+}
+.ath_5{
+	background-color: #F7C01A;
+}
