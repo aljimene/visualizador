@@ -54,3 +54,9 @@ body.loading .modal {
 .ath_5{
 	background-color: #F7C01A;
 }
+
+p { text-transform: lowercase; }
+
+p:first-letter {
+  text-transform: uppercase;
+}
